@@ -25,6 +25,8 @@
 			<true/>
 			<key>Type</key>
 			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>Description</key>
@@ -44,6 +46,8 @@
 				<string>Yes</string>
 				<string>No</string>
 			</array>
+			<key>NotPersisted</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>Description</key>
@@ -63,6 +67,8 @@
 				<key>inheritFromSuperclass</key>
 				<string>Yes</string>
 			</dict>
+			<key>NotPersisted</key>
+			<true/>
 		</dict>
 	</array>
 </dict>
