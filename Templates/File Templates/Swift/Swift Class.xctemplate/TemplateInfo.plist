@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>Swift Class</string>
+	<key>Summary</key>
+	<string>Swift Class</string>
+	<key>SortOrder</key>
+	<string>30</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Name of the class to create</string>
+			<key>Default</key>
+			<string>Class</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Class Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Created class should have a superclass</string>
+			<key>Identifier</key>
+			<string>inheritFromSuperclass</string>
+			<key>Default</key>
+			<string>No</string>
+			<key>Name</key>
+			<string>Inherit From Superclass</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Required</key>
+			<true/>
+			<key>Values</key>
+			<array>
+				<string>Yes</string>
+				<string>No</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Name of the superclass to create</string>
+			<key>Default</key>
+			<string>Superclass</string>
+			<key>Identifier</key>
+			<string>superclassName</string>
+			<key>Name</key>
+			<string>Superclass Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>inheritFromSuperclass</key>
+				<string>Yes</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

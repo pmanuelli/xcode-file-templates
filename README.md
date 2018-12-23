@@ -1,2 +1,3 @@
-# xcode-file-templates
-New file templates for Xcode
+# Xcode New File Templates
+
+New File templates for Xcode
