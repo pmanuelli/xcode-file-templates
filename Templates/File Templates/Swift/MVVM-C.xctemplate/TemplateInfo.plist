@@ -2,20 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>DefaultCompletionName</key>
-	<string>Scene</string>
-	<key>Description</key>
-	<string>ViewController with Presenter</string>
-	<key>Summary</key>
-	<string>ViewController with Presenter</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>ViewController, View, ViewModel and Coordinator</string>
+	<key>Summary</key>
+	<string>ViewController, View, ViewModel and Coordinator</string>
+	<key>DefaultCompletionName</key>
+	<string>Scene</string>
+	<key>SortOrder</key>
+	<string>1</string>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
 	</array>
-	<key>SortOrder</key>
-	<string>10</string>
 	<key>Options</key>
 	<array>
 		<dict>
@@ -50,13 +50,41 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___Presenter</string>
+			<string>___VARIABLE_sceneName:identifier___View</string>
 			<key>Description</key>
-			<string>The presenter&apos;s name</string>
+			<string>The view&apos;s name</string>
 			<key>Identifier</key>
-			<string>presenterName</string>
+			<string>viewName</string>
 			<key>Name</key>
-			<string>Presenter&apos;s Name:</string>
+			<string>View Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___ViewModel</string>
+			<key>Description</key>
+			<string>The view model&apos;s name</string>
+			<key>Identifier</key>
+			<string>viewModelName</string>
+			<key>Name</key>
+			<string>ViewModel Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Coordinator</string>
+			<key>Description</key>
+			<string>The coordinator&apos;s name</string>
+			<key>Identifier</key>
+			<string>coordinatorName</string>
+			<key>Name</key>
+			<string>Coordinator Name:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
