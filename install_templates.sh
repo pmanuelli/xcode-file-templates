@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp -R Templates/* ~/Library/Developer/Xcode/Templates
+cp -R Templates/ ~/Library/Developer/Xcode/Templates
